@@ -1,4 +1,4 @@
-\# Backlog
+# Backlog
 
 A collection of user stories you can choose from. Stories inside each priority
 level are not necessarily in order, it's up to your group to decide how they fit
