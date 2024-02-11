@@ -9,22 +9,39 @@ create your own!
 
 > these are necessary for basic usability
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user, I want to see the page's title
+- [ ] As a user, I want to see the logo
+- [ ] As a user, I want to see the header
+- [ ] As a user, I want to see background
+- [ ] As a user, I want to see navigation bar for the website
+- [ ] As a user, I want to see the footer
+- [ ] As a user, I want to see main section with relevant information
+  - who we are / what we do
+  - curriculum + three programs
+  - achievement
+- [ ] As a user, I want to experience visually appealing and responsive website
 
 ## Should-Haves
 
+- [ ] Semantic HTML
+- [ ] Accessibility features
+
 > these will complete the user experience, but are not necessary
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+As a user, I want to see the some links such as:
+
+- [ ] FAQ
+- [ ] Contact
+- [ ] Donation
+- [ ] Success stories
+- [ ] Volunteer
+- [ ] Social media
 
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] animation
+- [ ] video
+- [ ] blog page
+- [ ] information about coaches
