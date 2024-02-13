@@ -1,6 +1,11 @@
 # Name of project
 
-> A longer description
+HYF Redesign
+
+> A passionate and diverse community aim to enable refugees and disadvantaged
+> people to build digital skills for a career in web development, facilitate the
+> integration of newcomers, and address the shortage of qualified workforce in
+> the IT sector.
 
 ## Table of contents
 
@@ -22,19 +27,45 @@
 
 ## General info
 
-> A short description
+> "Hack Your Future Belgium" is an organization that aims to empower refugees
+> and newcomers in Belgium by providing them with the necessary skills and
+> knowledge to pursue careers in web development. The organization offers a free
+> 7-month coding program that teaches HTML, CSS, JavaScript, Node.js, React, and
+> other relevant technologies.
+
+The program is designed to be accessible to individuals with little to no prior
+coding experience. Through a combination of hands-on projects, workshops, and
+mentorship, participants learn the fundamentals of web development and build a
+portfolio of projects to showcase their skills to potential employers.
+
+In addition to technical skills, "Hack Your Future Belgium" also focuses on soft
+skills development, such as teamwork, communication, and problem-solving, to
+help participants succeed in the workplace.
+
+The organization collaborates with local tech companies and employers to
+facilitate job placements and internships for graduates of the program, helping
+them integrate into the Belgian workforce and contribute to the local tech
+industry.
+
+Overall, "Hack Your Future Belgium" plays a vital role in promoting diversity,
+inclusion, and social integration by providing opportunities for refugees and
+newcomers to build rewarding careers in technology.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./public/wireframe.png)
 
 ## Technologies
 
-- Node 14.16.0
+- Node 20.6.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
+- adobe illustrator
+- slack
+- GitHub
+- Markdown
+- agile methodology
 
 ## Setup
 
@@ -42,23 +73,26 @@
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+//
+<h1>HELPING NEW TALENT INTO TECH</h1>
+;
 ```
 
 ## Features
 
 List of features ready and Todos for future development
 
--
--
--
+- Backlog
+- Communications
+- design
+- user persona
 
 To-do list:
 
--
--
+- development strategy
+- HTML
+- CSS
 
 ## Status
 
@@ -66,11 +100,11 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by Group-2
 
 ## Contact
 
-By [Name]
+By [Rasaq, khant, Ala and Ashraf]
 
 ## Instructions for use
 
