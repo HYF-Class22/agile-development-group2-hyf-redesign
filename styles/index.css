@@ -1,1 +1,40 @@
 @import url("./something.css");
+
+a:link {
+  color: rgb(77, 135, 77);
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+.header {
+  background-color: rgb(245, 141, 245);
+  padding: 1px 10px 0 30px;
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.link {
+  display: inline-block;
+}
+
+.link a {
+  margin-right: 15px;
+}
