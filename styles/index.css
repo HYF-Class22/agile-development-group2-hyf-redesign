@@ -1,7 +1,7 @@
 @import url("./something.css");
 
 a:link {
-  color: rgb(77, 135, 77);
+  color: rgb(77 135 77);
   text-decoration: none;
 }
 
@@ -21,7 +21,7 @@ a:active {
 }
 
 .header {
-  background-color: rgb(245, 141, 245);
+  background-color: rgb(245 141 245);
   padding: 1px 10px 0 30px;
   width: 100%;
 }
