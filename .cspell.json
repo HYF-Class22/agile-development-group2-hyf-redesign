@@ -18,7 +18,9 @@
     "Ala",
     "Rasaq",
     "khant",
-    "Ashraf"
+    "Ashraf",
+    "inclusivity",
+    "hackathons"
   ],
   "ignorePaths": [
     "node_modules/**",
