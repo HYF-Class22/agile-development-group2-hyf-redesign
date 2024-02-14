@@ -154,7 +154,7 @@ a:active {
 .feature-squares li {
   list-style-type: none;
   display: grid;
-  background-color: rgba(12, 225, 180, 50%);
+  background-color: #0ce1b480;
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
   align-items: center;
@@ -186,10 +186,4 @@ a:active {
 .text1 p {
   font-size: 18px;
   line-height: 1.5;
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .wrapper {
-    grid-template-columns: 1fr;
-  }
 }
