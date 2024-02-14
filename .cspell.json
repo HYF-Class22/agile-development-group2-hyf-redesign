@@ -20,7 +20,8 @@
     "khant",
     "Ashraf",
     "inclusivity",
-    "hackathons"
+    "hackathons",
+    "stylelint"
   ],
   "ignorePaths": [
     "node_modules/**",
