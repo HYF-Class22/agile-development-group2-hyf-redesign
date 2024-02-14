@@ -124,7 +124,7 @@ a:active {
   align-items: center;
 }
 
-/* style-lint-disable-next-line media-feature-range-notation */
+/* stylelint-disable-next-line media-feature-range-notation */
 @media (max-width: 768px) {
   .columns {
     flex-direction: column;
