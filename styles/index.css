@@ -156,14 +156,13 @@ a:active {
 .feature-squares li {
   list-style-type: none;
   display: grid;
+  background-color: rgba(12, 225, 180, 50%);
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
   align-items: center;
   padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
   border-radius: 5px;
   transition: all 0.3s ease;
-  background-color: rgb(136, 225, 180);
 }
 
 .feature-squares li:hover {
@@ -191,7 +190,7 @@ a:active {
   line-height: 1.5;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
   .wrapper {
     grid-template-columns: 1fr;
   }
