@@ -1,20 +1,15 @@
 # Project Name
 
-<!-- describe your project -->
+## HYFB redesign
 
 ---
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
-
----
-
-<!-- copy this section once for each must-have user story -->
+- create a new repo form the template `group-2-hyf-redesign`
+- add collaborators
+- turn on github pages and give them `write` access
+- protect `main` branch
 
 ## user story
 
@@ -22,153 +17,93 @@
 
 > "as a ... i can ... so that ..."
 
-<!-- write any extra notes or description -->
+## 1. Title and navbare
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
-
-### Logic: user story
-
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Interface: user story
-
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Interaction: user story
-
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Documentation: user story
-
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### All-about-trees
-
-## 0.Setup
-
-- create a new repo form the template `group2 all about tree`
-- add collaborators
-- turn on github pages and give them `write` access
-- protect `master` branch
-
----
-
-## 1. Title
-
-### As a user I want to see the title of the page
-
-- This user story is developed on branch `9-title`.
-- This branch is merged to `master` branch after completion.
+### As a user I want to see the title or the logo of the HYF website
 
 ### html
 
-- add `background` image
-- add `div` tag
-- add `nav` tag
-- add `h1` for the page title
-
-### css
-
-- add class`background` to the `body`
-- add class`header` to the `div`
-- make the display `flex` and add `padding`
-
-## 2. Logos
-
-### As a user I want to see logos of the page
-
-- This user story is developed on branch `10-logos`.
-- This branch is merged to `master` branch after completion.
-
-### html
-
-- add logo `img`
-
-### css
-
-- add class `logo` to `img`
-- add `width` and `margin`
-
-## 3. Navigation links
-
-### As a user I want to see navigation links
-
-- This user story is developed on branch `navLinks`.
-- This branch is merged to `master` branch after completion.
-
-### html
-
-- add two `nav`
+- This user story is developed on branch `website-header`.
+- This branch is merged to `main` branch after completion.
+- add `h2` title
+- add `nav`
 - add a `ul`
 - add a `li`
 - add `a`
 
 ### css
 
-- add id `side-menu` to both `ul`
-- add `border`
-- add class `spaced-items` to the parent `div`
+- class `logo`
+- add class `link` to nav
+- background color gray
 - make display `flex` and add `padding`
 
-## 4. Description
+### As a user, I want to see who you are to know what this website is about
 
-### As a user I want to see description of the page
+### html who we are
 
-- This user story is developed on branch `description`.
-- This branch is merged to `master` branch after completion.
+- This user story is developed on branch `adding-who-are-we`.
+- This branch is merged to `main` branch after completion.
 
-### html
+- add `h1`title
+- add `img`
+- add a `h2`
+- add a `p`
+
+### css who we are
+
+- class `who` to `h1`
+- class `column-img` to `img`
+- add class `text` to `h2 and p` div ,
+- make display `flex` and add `padding`
+
+### As a user, I want to see your curriculum to know if it useful or not
+
+### html curriculum
+
+- This user story is developed on branch `curriculum`.
+- This branch is merged to `main` branch after completion.
+
+- add `h1`title
+- add `h2`
+- add a `p`
+- add `img`
+- add a `h2`
+- add a `p`
+
+### css curriculum
+
+- id `curriculum`
+- class `container` to `div`
+- class `sub-titles` to `h1`
+- class `sub-title` to `h2`
+- add class `services-list` to `img, h2 and p` div ,
+- make display `grid`
+
+- id `program`
+- class `container` to `div`
+- class `sub-title` to `h1`
+- add class `work` to `img, h2 and p` div ,
+- make display `grid`
+
+### As a user, I want to see the Achievements to know what you have done
+
+- This user story is developed on branch `achievements`.
+- This branch is merged to `main` branch after completion.
+
+### html achievements
 
 - add `section`
+- add `ul`
+- add `h5`title
 - add `p`
+- add `img`
 
-### css
+### css achievements
 
-- add id `summary-info` to both `section`
-- add class `fascinating-words` to `p`
-- make the font family `fantasy`
-
-## 5. Extra info
-
-### As a user I want to see extra link one the page
-
-- This user story is developed on branch `extraLink`.
-- This branch is merged to `master` branch after completion.
-
-### html
-
-- add `button`
-
-### css
-
-- add class `button`
-- add border
-- add button:hover
-
-## 7. Social media links
-
-### As a user I want to see social media links to contact the website owner
-
-- This user story is developed on branch `15-socialMedia`.
-- This branch is merged to `master` branch after completion.
-
-### html
-
-- add `footer`
-- add `a`
-
-### css
-
-- add class `spaced-items` to `footer`
+- id `achievement`
+- class `achievement` to `section`
+- class `feature-squares` to `ul`
+- class `image` to `div img`
+- add class `text1` to `h5 and p` div ,
+- make display `grid`
